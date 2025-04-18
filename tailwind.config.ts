@@ -52,6 +52,21 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
+                profit: {
+                    DEFAULT: '#22c55e', // Green
+                    light: '#86efac',
+                    dark: '#15803d'
+                },
+                loss: {
+                    DEFAULT: '#ef4444', // Red
+                    light: '#fca5a5',
+                    dark: '#b91c1c'
+                },
+                chart: {
+                    line: '#3b82f6', // Blue
+                    grid: '#1f2937',
+                    background: '#111827'
+                },
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
 					foreground: 'hsl(var(--sidebar-foreground))',
