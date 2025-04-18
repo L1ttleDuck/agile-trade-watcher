@@ -1,4 +1,3 @@
-
 import React, { useState } from "react";
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
@@ -37,7 +36,11 @@ const BotControls: React.FC<BotControlsProps> = ({ botStatus, onToggleBot }) => 
                 )}
               </Button>
               
-              <Button variant="outline" size="lg">
+              <Button 
+                variant="outline" 
+                size="lg" 
+                onClick={() => setCodeModalOpen(true)}
+              >
                 <FaCode className="mr-2" /> View Python Code
               </Button>
             </div>
